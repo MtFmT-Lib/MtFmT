@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v4
       # Doxygen 样式
       - name: Doxygen scss compile
-        uses: gha-utilities/sass-build@v0.5.1
+        uses: gha-utilities/sass-build@v0.6.0
         with:
           source: "./support/themes/doxygen/css/style.scss"
           destination: "./support/themes/doxygen/html/style.css"
